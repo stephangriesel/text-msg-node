@@ -1,0 +1,19 @@
+{
+  "name": "text-msg-node",
+  "version": "1.0.0",
+  "description": "Send Text from Node",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nexmo": "^2.0.2",
+    "socket.io": "^2.0.4",
+    "update": "^0.7.4"
+  }
+}

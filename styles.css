@@ -1,0 +1,9 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(to left bottom, #25cf93, #67dcae, #95e8c8, #c0f4e0, #e9fff7) fixed;
+}
