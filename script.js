@@ -18,9 +18,16 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
-app.get('/', (req,res) => {
+// Index Route 
+app.get('/', (req, res) => {
     res.render('index');
-})
+});
+
+// Catch form submit 
+app.post('/', () => {
+    res.send(req.body);
+    console.log(req.body);
+});
 
 // define port
 const port = 3000;
